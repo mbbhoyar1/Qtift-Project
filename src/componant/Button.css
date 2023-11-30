@@ -1,0 +1,17 @@
+.button { 
+background-color: #121212;
+color: var(--color-primary);
+padding: 10px 16px;
+
+border-radius: 12px;
+cursor: pointer;
+
+
+
+}
+
+.textcopy{
+text-decoration-color: var(--Primary-400, #34C94B);
+text-align: center;
+
+}
