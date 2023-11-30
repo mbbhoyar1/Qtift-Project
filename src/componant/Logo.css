@@ -1,6 +1,13 @@
 .logo{
-
+    display: flex; 
+    align-items: center;
+    vertical-align:middle;
+    margin-left: 32px;
+    margin-top: 10px;
+    
     width: 67px;
     height: 34px;
     flex-shrink: 0;
+    
 }
+

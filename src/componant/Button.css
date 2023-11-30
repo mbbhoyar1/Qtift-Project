@@ -5,13 +5,16 @@ padding: 10px 16px;
 
 border-radius: 12px;
 cursor: pointer;
+font-family: 'Poppins', sans-serif;
 
 
 
 }
 
 .textcopy{
+font-family: 'Poppins', sans-serif;
 text-decoration-color: var(--Primary-400, #34C94B);
+
 text-align: center;
 
 }
