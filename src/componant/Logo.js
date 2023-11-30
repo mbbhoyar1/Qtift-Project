@@ -5,6 +5,6 @@ import React from "react";
 import styles from './Logo.module.css';
 import LogoFinal from "../assest/LogoFinal.png"
 
-const Logo = () => <img className={styles.Logo} src={LogoFinal} alt="logo" width={67} />;
+const Logo = () => <img className={styles.logo} src={LogoFinal} alt="logo" width={67} />;
 
 export default Logo;
