@@ -3,21 +3,11 @@
 .logo {
     width: 67px;
     height: 36px;
+    display: flex;
+    vertical-align: middle;
+    padding-left: 32px;
+ 
 
     
 }
-
-.logo-container {
-    display: flex;
-    align-items: center; /* Vertically center the logo */
-    padding-left: 32px; /* Space to the left of the logo */
-    /* Additional styles for the container */
-}
-
-
-
-/* width: 67px
-height: 34px
-top: 20px
-left: 32px */
 
