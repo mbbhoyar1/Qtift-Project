@@ -1,19 +1,15 @@
 
 
 .logo {
-    /* display: flex; 
-    align-items: center;  */
+    display: flex; 
+    align-items: center; 
     margin-left: 32px; 
-    /* margin-top: 22px;
-    margin-bottom: 18px; */
+    margin-top: 20px;
+    
 
   
     width: 67px;
     height: 34px;
    
-}
-.logo-container {
-    display: grid;
-    place-items: center; /* Vertically centers children */
 }
 
