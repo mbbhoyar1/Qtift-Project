@@ -1,4 +1,4 @@
- .logo{
+ /* .logo{
     display: flex; 
     align-items: center;
     
@@ -10,26 +10,19 @@
     height: 34px;
     flex-shrink: 0;
      
-}
+} */
 /* should check if the logo is vertically centered and has space to its left */
 
-/* .logo {
+.logo {
     display: flex; 
     align-items: center; /* Vertically center elements */
+    margin-left: 32px; /* Creates space to the left */
+    margin-top: 22px; /* Adds margin at the top */
+    margin-bottom: 18px; /* Adds margin at the bottom */
 
-    /* Ensure space to the left */
-    margin-left: 32px; /* Adjust as needed */
-    margin-top: 22px;
-    margin-bottom: 18px;
-    
-    /* Vertically center the logo */
-    justify-content: center; /* Horizontally center elements */
-    height: 100%; /* Set height to occupy container height */
-    /* Centering might not work as intended without a specified height on the container */
-    
     /* Define fixed dimensions for the logo */
     width: 67px;
     height: 34px;
-    flex-shrink: 0; /* Prevent shrinking beyond specified dimensions */
-} */
+    flex-shrink: 0; /* Prevents shrinking beyond specified dimensions */
+}
 
