@@ -1,8 +1,10 @@
 import React from "react";
-//import "./Logo.css"
 
-import logoImage from "../assest/logoImage.png"
 
-const Logo = () => <img className="Logo" src={logoImage} alt="logo" width={67} height= {34}/>;
+// import logoImage from "../assest/logoImage.png"
+import styles from './Logo.module.css';
+import LogoFinal from "../assest/LogoFinal.png"
+
+const Logo = () => <img className={styles.Logo} src={LogoFinal} alt="logo" width={67} />;
 
 export default Logo;

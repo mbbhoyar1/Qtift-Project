@@ -10,11 +10,11 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       
-      {/* <div className="Logodiv"> */}
-        <Logo />
-        {/* </div> */}
+     
+      <Logo />
+       
       <SearchBar placeholder="Search a album of your choice" />
-      <Button text="Give Feedback" className="give-feedback-btn" />
+      <Button text="Give Feedback"  />
     </nav>
   );
 };

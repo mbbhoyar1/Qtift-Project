@@ -3,13 +3,7 @@ import "./Search.css";
 const Search = ({placeholder}) => {
   return (
     <>
-      {/* <div className="wrapper">
-        <input className="search" />
-        <button className="search-btn">
-          <SearchIcon />
-        </button>
-      </div> */}
-
+    
 
 
       <form className="wrapper">

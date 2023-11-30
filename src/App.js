@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Nevbar from './componant/Nevbar';
-import "./App.css";
+
 
 function App() {
   return (
