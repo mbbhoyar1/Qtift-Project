@@ -1,0 +1,12 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .promotion {
+    color: var(--white-color);
+    text-align: center;
+  }
+  
