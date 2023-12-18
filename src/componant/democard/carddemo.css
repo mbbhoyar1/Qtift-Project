@@ -1,0 +1,61 @@
+.wrapper {
+   
+   width: 160px;
+
+  }
+
+.card {
+   
+    height: 205px;
+    width: 160px;
+    position: relative;
+
+}  
+
+.banner {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 42px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+
+
+}
+
+.pill{
+    font-size: 12px;
+    background-color: #000000;
+    width: max-content;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.titlewrap {
+   
+    margin-top: 6px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.chip {
+    background-color: #000000;
+    color: #ffff;
+    
+}
+
+.label {
+    height: 30px;
+    color: var(--css-white);
+    margin-top: 6px;
+}
+
+
+
+

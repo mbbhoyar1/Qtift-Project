@@ -6,7 +6,7 @@ const Search = ({placeholder}) => {
     
 
 
-      <form className="wrapper">
+      <form className="formwrapper">
         <input className="search" placeholder={placeholder}required/>
         <button className="search-btn" type="submit">
           <SearchIcon/>

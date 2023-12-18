@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import { ReactComponent as Headphone } from "../../assest/vibratingHeadphone.svg";
 
-export const Hero = () => {
+ const Hero = () => {
   return (
     <div className="hero">
       <div className="promotion">
@@ -15,3 +15,6 @@ export const Hero = () => {
     </div>
   );
 };
+
+
+export default Hero;
