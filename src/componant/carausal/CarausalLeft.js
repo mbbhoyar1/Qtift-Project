@@ -8,16 +8,16 @@ import { ReactComponent as LeftArrow } from "../../assest/LeftArrow.svg";
 function CarausalLeft(){
 
     const swiper = useSwiper();
-    const [isBeginning,setIsBeginning] = useState(swiper.isBeginning)
+    const [isBegin,setIsBegin] = useState(true)
 
     useEffect(() => {
         swiper.on("slideChange", () => {
-            setIsBeginning(swiper.isBeginning)
+          setIsBegin(swiper.isBeginning)
         })
     },[swiper])
   return (
     <div className="leftNev">
-        {!isBeginning && <LeftArrow onClick={() => swiper.slidePrev()}/>}
+        {!isBegin && <LeftArrow onClick={() => swiper.slidePrev()}/>}
     </div>
   )
 }

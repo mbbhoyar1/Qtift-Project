@@ -19,8 +19,12 @@ const Homepage = () => {
   return (
        <>
          <Hero />
+
+         <div className='sectionwrapper'>
          <Section data={topAlbum} title="Top album" type="album" />
          <Section data={newAlbum} title="New album" type="album" />
+         </div>
+         
        </>
      );
    };

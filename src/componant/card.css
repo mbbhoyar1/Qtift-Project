@@ -1,6 +1,6 @@
 
 
- .wrapper {
+ .card_wrapper {
    
     width: 160px;
  
@@ -48,11 +48,7 @@
     text-overflow: ellipsis;
  }
  
- .chip {
-     background-color: #000000;
-     color: #ffff;
-     
- }
+
  
  .label {
      height: 30px;

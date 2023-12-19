@@ -12,7 +12,7 @@ const Card = ({ data, type }) => {
 
         return (  
       
-          <div className="wrapper">     
+          <div className="card_wrapper">     
           <Tooltip title={`${songs.length} songs`} placement="top" arrow>
           <a href={`/album/${slug}`}>
                                                                

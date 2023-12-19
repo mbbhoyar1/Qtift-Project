@@ -1,5 +1,8 @@
 .wrapper {
     position: relative;
-
+    
+}
+.swiper-wrapper {
+    gap: 40px;
 }
 
