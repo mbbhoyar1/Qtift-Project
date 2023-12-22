@@ -4,8 +4,9 @@ import Nevbar from './componant/Nevbar';
 // import { Hero } from './componant/Hero/Hero';
 // import Card from './componant/Card';
 import { Outlet } from 'react-router-dom';
-import {fetchtopalbum, fetchnewalbum} from '../src/componant/apis/api'
-import Carddemo from './componant/democard/Carddemo';
+import {fetchtopalbum, fetchnewalbum, fetchgenres} from '../src/componant/apis/api'
+import {fetchsong}  from '../src/componant/apis/api'
+
 
 
 
@@ -26,11 +27,16 @@ function App() {
 
     generateData("topAlbum", fetchtopalbum);
     generateData("newAlbum", fetchnewalbum);
+    generateData("mbb", fetchsong);
+    generateData("genre", fetchgenres);
+  
+  
+
   }, []);
 
   
 
-  const { topAlbum = [], newAlbum = [] } = data || {};
+  const { topAlbum = [], newAlbum = [], mbb = [] } = data || {};
 
   
 
@@ -40,7 +46,7 @@ function App() {
     <div className="App">
       
       <Nevbar />
-      <Outlet  context={{data: {topAlbum, newAlbum}}}/>
+      <Outlet  context={{data: {topAlbum, newAlbum, mbb}}}/>
       
 
 

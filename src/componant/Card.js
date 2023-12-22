@@ -164,4 +164,4 @@ export default Card;
 //   return getCard(type)
 // }
 
-// export default Card
+// export default Cardv

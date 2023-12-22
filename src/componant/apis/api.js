@@ -25,3 +25,30 @@ export const fetchnewalbum = async () => {
 
     }
 };
+// fetch for song section
+
+
+export const fetchsong = async () => {
+    try{
+        const responce = await axios.get(`${Base}/songs`);
+        return responce.data;
+    }
+    catch (e){
+        console.log(e);
+
+    }
+};
+
+export const fetchgenres = async () => {
+    try{
+        const responce = await axios.get(`${Base}/genres`);
+        return responce.data;
+    }
+    catch (e){
+        console.log(e);
+
+    }
+};
+
+
+

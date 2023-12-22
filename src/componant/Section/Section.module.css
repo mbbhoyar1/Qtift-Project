@@ -13,7 +13,8 @@
   font-size: 20px;
 }
 
-/* .wrapper {
+/* 
+.wrapper {
   margin-left: 31px;
   display: flex;
   gap: 30px;
@@ -28,6 +29,7 @@ flex-wrap: wrap ;
 
 
 } */
+
 .wrapper {
  
  
@@ -57,9 +59,16 @@ flex-wrap: wrap ;
   
   
 }
+.filterwrapper{
+  margin-top: 15px;
+}
 
 
-/* .cardWrapper {
+/* 
+.cardWrapper {
   margin-top: 18px;
 }
- */
+
+*/
+
+ 
